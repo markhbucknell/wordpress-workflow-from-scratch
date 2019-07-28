@@ -5,7 +5,9 @@
     "main": "index.js",
     "scripts": {
         "build": "webpack",
-        "start:dev": "webpack-dev-server"
+        "start:dev": "webpack-dev-server",
+        "parcel:dev": "parcel ./src/index.html",
+        "parcel:prod": "parcel build ./src/index.html"
     },
     "author": "",
     "license": "ISC",
